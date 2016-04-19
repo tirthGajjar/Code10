@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.tirthgajjar.code10.LoginActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:id="@+id/myedittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Phone number"
+        app:met_baseColor="#1A237E"
+        app:met_primaryColor="#0056d3"
+        app:met_errorColor="#d50000"
+        app:met_textColor = "#982360"
+        app:met_floatingLabelTextColor="#1B5E20"
+        app:met_textColorHint="@color/primary_light"
+        app:met_bottomTextSize="10dp"
+        app:met_checkCharactersCountAtBeginning="true"
+        app:met_clearButton="true"
+        app:met_floatingLabel="highlight"
+        app:met_floatingLabelAnimating="true"
+        app:met_iconLeft="@drawable/ic_service_telephone"
+        app:met_singleLineEllipsis="true"
+        app:met_maxCharacters="10"
+        app:met_helperText="Phone Number"
+        app:met_helperTextAlwaysShown="false"
+        android:inputType="phone"
+
+        />
+
+    </LinearLayout>
+</RelativeLayout>
